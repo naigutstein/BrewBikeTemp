@@ -1,10 +1,64 @@
-body{
-  background-size: 100% 100vh;
+@media screen and (min-width: 950px) {
+.logo{
+	height: 40%;
+	width: 40%;
+	position:relative;
+	left:30%;
+}
 }
 
-#slogan{
-  font-family: "Courier New";
-  color:white;
-  font-size: 3.5em;
-  text-align: center;
+@media screen and (max-width: 950px) {
+.logo{
+	height: 55%;
+	width: 55%;
+	position:relative;
+	left:23%;
 }
+}
+
+.col-md-4{
+	text-align: center;
+	font-family: Arial;
+	font-size:1.5em;
+}
+.PL{
+	height:12vh;
+	width:44vh;
+}
+.PL a:hover {
+	height:110%;
+	width:110%;
+	color:black;
+}
+.OJ{
+	height:10vh;
+	width:35vh;
+}
+#OJ p:hover {
+	font-size:1.4em;
+}
+.I{
+	height:10vh;
+	width:30vh;
+}
+#I p:hover {
+	font-size:1.4em;
+}
+
+.flyer{
+	position:absolute;
+	height:100vh;
+	margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.email{
+	position:absolute;
+	margin: auto;
+    left: 0;
+    right: 0;	
+}
+
