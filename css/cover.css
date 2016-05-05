@@ -25,24 +25,25 @@
 	height:12vh;
 	width:44vh;
 }
-.PL a:hover {
-	height:110%;
-	width:110%;
-	color:black;
+.PL:hover {
+	height:15vh;
+	width:46vh;
 }
 .OJ{
 	height:10vh;
 	width:35vh;
 }
-#OJ p:hover {
-	font-size:1.4em;
+.OJ:hover {
+	height:13vh;
+	width:37vh;
 }
 .I{
 	height:10vh;
 	width:30vh;
 }
-#I p:hover {
-	font-size:1.4em;
+.I:hover {
+	height:13vh;
+	width:33vh;
 }
 
 .flyer{
